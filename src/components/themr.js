@@ -143,6 +143,7 @@ export default (componentName, localTheme, options = {}) => (ThemedComponent) =>
     }
 
     render() {
+      this.theme_ = this.calcTheme(nextProps)
       return React.createElement(
         ThemedComponent,
         this.props.mapThemrProps(this.props, this.theme_)
