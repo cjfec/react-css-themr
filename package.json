@@ -3,7 +3,7 @@
   "description": "React CSS Themr",
   "homepage": "https://github.com/javivelasco/react-css-themr#readme",
   "version": "2.1.2",
-  "main": "./src",
+  "main": "./lib",
   "author": {
     "email": "javier.velasco86@gmail.com",
     "name": "Javi Velasco",
